@@ -1982,9 +1982,9 @@
     "@types/lodash" "*"
 
 "@types/lodash.random@^3.2.6":
-  version "3.2.7"
-  resolved "https://registry.yarnpkg.com/@types/lodash.random/-/lodash.random-3.2.7.tgz#3100a1b7956ce86ab5adcce2e7b305412b98e3bf"
-  integrity sha512-gFKkVgWYi1q7RFJ+QNTzaRprdhVIZLpZd6C3MTNehKcujMn9SyFUqf2fTBOmvIYXqNk0RpwfbdOwHf0GnEQB0g==
+  version "3.2.9"
+  resolved "https://registry.yarnpkg.com/@types/lodash.random/-/lodash.random-3.2.9.tgz#5134b838d54b565cb0b7453a0938d3033028f3d1"
+  integrity sha512-tIkVWoiBVVguQG5lpTErD9tOADYA5A1V6Ie0WgG/cVNN9jIJIlXCTS0FCcurV+OBnu7uJBpNKgA9gx3eYUj19Q==
   dependencies:
     "@types/lodash" "*"
 
