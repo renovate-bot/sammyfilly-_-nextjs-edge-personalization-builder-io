@@ -2130,10 +2130,10 @@
     async-retry "^1.3.3"
     debug "^4.3.3"
 
-"@vercel/fetch@^6.1.1":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@vercel/fetch/-/fetch-6.2.0.tgz#149b97dddeb2c98a23439665f42baa66d5aa3903"
-  integrity sha512-MU+Mzh06NIAXxwdnyHmBFg+/lTKBbzDkCSNhAwWTFJ4rHuBc4pHc8E6XP+qnwqaWugjOBQgFfQCGDLnV820c9A==
+"@vercel/fetch@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@vercel/fetch/-/fetch-7.0.0.tgz#743e713546acb147769100040b364a40e322f9cc"
+  integrity sha512-zxZCtiZ2ICoaXCELiCnJbZqWWoQOMpsTyvPJBvCyXRnyQjuZkcCoWTaubUulxdFKCrSeJOgugJ2UtsjbLUlj1w==
   dependencies:
     "@types/async-retry" "^1.4.3"
     "@vercel/fetch-cached-dns" "^2.0.2"

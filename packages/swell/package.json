@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@vercel/commerce": "^0.0.1",
-    "@vercel/fetch": "^6.1.1",
+    "@vercel/fetch": "^7.0.0",
     "swell-js": "^4.0.0-next.0",
     "lodash.debounce": "^4.0.8"
   },
