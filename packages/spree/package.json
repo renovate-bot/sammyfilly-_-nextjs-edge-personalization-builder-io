@@ -47,7 +47,7 @@
     }
   },
   "dependencies": {
-    "@spree/storefront-api-v2-sdk": "^5.1.1",
+    "@spree/storefront-api-v2-sdk": "^6.0.0",
     "@vercel/commerce": "^0.0.1",
     "@vercel/fetch": "^6.1.1",
     "swr": "^1.2.0",
