@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@vercel/fetch": "^6.1.1",
-    "cookie": "^0.4.1",
+    "cookie": "^0.7.0",
     "immutability-helper": "^3.1.1",
     "jsonwebtoken": "^8.5.1",
     "lodash.debounce": "^4.0.8",
@@ -63,7 +63,7 @@
     "@taskr/clear": "^1.1.0",
     "@taskr/esnext": "^1.1.0",
     "@taskr/watch": "^1.1.0",
-    "@types/cookie": "^0.4.1",
+    "@types/cookie": "^0.6.0",
     "@types/jsonwebtoken": "^8.5.7",
     "@types/lodash.debounce": "^4.0.6",
     "@types/node": "^17.0.8",
