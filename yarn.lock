@@ -509,23 +509,23 @@
     json-stringify-deterministic "^1.0.6"
 
 "@builder.io/react@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@builder.io/react/-/react-2.0.9.tgz#58a87784e548b4586258445380e11eb6c7ee655e"
-  integrity sha512-Prj/sK3/vBaqR77V9PNQqzHQfZbj9a3RklI6qAbuDZJMT+gjgsnpuzPzHdmsvS7y3+QtapbxCI1++tnsYj5yIA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@builder.io/react/-/react-2.2.0.tgz#397569c046761ebf9a4c3b47e7eb5fb648c7c3f1"
+  integrity sha512-u+7CUSoDIom+iPeGUvd6h0RkPnG8g8aO4UCLctcDkeOP0AUtH8L7XxIAe5YVI8FhVScwFhDE5bkTWGIL+yK/zw==
   dependencies:
-    "@builder.io/sdk" "^1.1.30"
+    "@builder.io/sdk" "1.3.0"
     "@emotion/core" "^10.0.17"
     hash-sum "^2.0.0"
     preact "^10.1.0"
-    vm2 "^3.9.10"
+    vm2 "^3.9.18"
   optionalDependencies:
     node-fetch "^2.6.1"
     prop-types "^15.7.2"
 
-"@builder.io/sdk@^1.1.30":
-  version "1.1.30"
-  resolved "https://registry.yarnpkg.com/@builder.io/sdk/-/sdk-1.1.30.tgz#25718d3685624677fe61ffc4642923392afed5a6"
-  integrity sha512-HS5TSs/r7DsDFYaMQ8poXcMD/1jFjgrxulf1Ai/1y494QlxNyhQKQSZyhYJe2B+C2nZJTPfJjEFQMDSlACeoLA==
+"@builder.io/sdk@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@builder.io/sdk/-/sdk-1.3.0.tgz#2c8b9e4db0ae0e8e554d955650112858e890c1d1"
+  integrity sha512-pRsfFpoOtgpAdl9Oi0N0a/UMtXYqdjOwZH+3zF5uVlzPHnILT/ahfe7DpW5RBijFGiMfMnoERD1XguP6zDbl2g==
   dependencies:
     hash-sum "^2.0.0"
     node-fetch "^2.3.0"
@@ -2183,10 +2183,17 @@ acorn-walk@^7.0.0:
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-7.2.0.tgz#0de889a601203909b0fbe07b8938dc21d2e967bc"
   integrity sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==
 
-acorn-walk@^8.0.0, acorn-walk@^8.2.0:
+acorn-walk@^8.0.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
   integrity sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==
+
+acorn-walk@^8.3.4:
+  version "8.3.5"
+  resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.3.5.tgz#8a6b8ca8fc5b34685af15dabb44118663c296496"
+  integrity sha512-HEHNfbars9v4pgpW6SO1KSPkfoS0xVOM/9UzkJltjlsHZmJasxg8aXkuZa7SMf8vKGIBhpUsPluQSqhJFCqebw==
+  dependencies:
+    acorn "^8.11.0"
 
 acorn@^7.0.0:
   version "7.4.1"
@@ -2198,10 +2205,10 @@ acorn@^8.0.4, acorn@^8.7.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.1.tgz#0197122c843d1bf6d0a5e83220a788f278f63c30"
   integrity sha512-Xx54uLJQZ19lKygFXOWsscKUbsBZW0CPykPhVQdhIeIwrbPmJzqeASDInc8nKBnp/JT6igTs82qPXz069H8I/A==
 
-acorn@^8.7.0:
-  version "8.8.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
-  integrity sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==
+acorn@^8.11.0, acorn@^8.15.0:
+  version "8.18.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.18.0.tgz#4faf01b2d6d326bfeed97aea1f52220b5f4c1940"
+  integrity sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==
 
 agent-base@6, agent-base@^6.0.2:
   version "6.0.2"
@@ -9104,13 +9111,13 @@ value-or-promise@1.0.11, value-or-promise@^1.0.11:
   resolved "https://registry.yarnpkg.com/value-or-promise/-/value-or-promise-1.0.11.tgz#3e90299af31dd014fe843fe309cefa7c1d94b140"
   integrity sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==
 
-vm2@^3.9.10:
-  version "3.9.11"
-  resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.11.tgz#a880f510a606481719ec3f9803b940c5805a06fe"
-  integrity sha512-PFG8iJRSjvvBdisowQ7iVF580DXb1uCIiGaXgm7tynMR1uTBlv7UJlB1zdv5KJ+Tmq1f0Upnj3fayoEOPpCBKg==
+vm2@^3.9.18:
+  version "3.11.5"
+  resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.11.5.tgz#6dcebf22c7bf77acf80571f26f1040ee626a97d0"
+  integrity sha512-RSrkBiwrj6FRU+QdqNs6KG0XdlvJCjpQ4GXiqmMbrhmwfu5k/XIMpAer0L8f6iuf0uJ3a4T1xJN126Q8yf0VIA==
   dependencies:
-    acorn "^8.7.0"
-    acorn-walk "^8.2.0"
+    acorn "^8.15.0"
+    acorn-walk "^8.3.4"
 
 watchpack@2.4.0:
   version "2.4.0"
