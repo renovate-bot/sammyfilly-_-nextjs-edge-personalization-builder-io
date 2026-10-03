@@ -532,9 +532,9 @@
     tslib "^1.10.0"
 
 "@builder.io/utils@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@builder.io/utils/-/utils-1.1.3.tgz#24bbe0e82bc4c4c5760467858a5ea7c67cf78c40"
-  integrity sha512-YAKrQcUgEcbHbUqLVoq0xOVv5wKXwF45H8oX55i5Iw7SPB9ttcpzQc1U/Wlrqky8CyHFbjnRpAe1naHtJgobPQ==
+  version "1.1.34"
+  resolved "https://registry.yarnpkg.com/@builder.io/utils/-/utils-1.1.34.tgz#9c2390fdde33687299bc90662ddd747b46dc8e51"
+  integrity sha512-8TFT6BvQUzLT+4CY//nB8y9awktz73ksyAyQTqroYQLU3TyI+QSorCZ4lCaTuNHmdeJL/ycKudnKpw0mqi7jsg==
   dependencies:
     "@types/lodash" "^4.14.182"
     lodash "^4.17.21"
